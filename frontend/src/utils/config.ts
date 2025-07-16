@@ -12,8 +12,8 @@ export const API_CONFIG = {
   // 환경변수가 있으면 사용하고, 없으면 기본값 사용
   BASE_URL: process.env.NEXT_PUBLIC_BACKEND_URL || 
            (isProduction 
-             ? 'https://your-app.up.railway.app'  // 실제 배포 도메인으로 변경 필요
-             : 'http://localhost:3001'
+             ? 'https://schedule-planner.up.railway.app/'  // 실제 배포 도메인으로 변경 필요
+             : 'http://localhost:3000'
            ),
   
   // API 엔드포인트들
